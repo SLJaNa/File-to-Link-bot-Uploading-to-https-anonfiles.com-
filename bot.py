@@ -1,4 +1,4 @@
-#    Copyright (C) 2021 - Avishkar Patil | @AvishkarPatil
+#    Copyright (C) 2021 - SLJaNa | @SL_Jana
 
 
 import os
@@ -37,19 +37,19 @@ bot = Client(
 
 
 START_TEXT = """
-__Hᴇʟʟᴏ Dᴇᴀʀ I'ᴍ__ **AɴᴏɴFɪʟᴇsBᴏᴛ** 😎 \n\n__I Cᴀɴ Uᴘʟᴏᴀᴅ Fɪʟᴇs Tᴇʟᴇɢʀᴀ Tᴏ AɴᴏɴFɪʟᴇs__\n\n__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @AvishkarPatil**
+__Hᴇʟʟᴏ Dᴇᴀʀ I'ᴍ__ **SL_Jana_File-to-Link-bot** 😎 \n\n__I Cᴀɴ Uᴘʟᴏᴀᴅ Fɪʟᴇs Tᴇʟᴇɢʀᴀ Tᴏ AɴᴏɴFɪʟᴇs__\n\n__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @SL_Jana_Team**
 """
 HELP_TEXT = """
-**AɴᴏɴFɪʟᴇsBᴏᴛ Hᴇʟᴘ**\n\n__Sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ғɪʟᴇ, I'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴀɴᴏɴғɪʟᴇs.ᴄᴏᴍ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ__\n\n__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @AvishkarPatil**
+**AɴᴏɴFɪʟᴇsBᴏᴛ Hᴇʟᴘ**\n\n__Sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ғɪʟᴇ, I'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴀɴᴏɴғɪʟᴇs.ᴄᴏᴍ ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ__\n\n__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @SL_Jana_Team**
 """
 ABOUT_TEXT = """
-- **Bot :** `AnonFilesBot`
-- **Creator :** [AvishkarPatil](https://telegram.me/AvishkarPatil)
-- **Source :** [Click here](https://github.com/avipatilpro/AnonFilesBot)
+- **Bot :** `SL_Jana_File-to-Link-bot`
+- **Creator :** [SL_Jana](https://t.me/SL_Jana)
+- **Source :** [Click here](https://github.com/SLJaNa/File-to-Link-bot-Uploading-to-https-anonfiles.com-)
 - **Language :** [Python3](https://python.org)
 - **Server :** [Heroku](https://heroku.com)
 
-__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @AvishkarPatil
+__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @SL_Jana_Team
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
@@ -118,7 +118,7 @@ async def upload(client, message):
             if user.status == "kicked":
                 await client.send_message(
                     chat_id=message.chat.id,
-                    text="**Sᴏʀʀʏ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ! Cᴏɴᴛᴀᴄᴛ** [Dᴇᴠᴇʟᴏᴘᴇʀ](https://telegram.me/AvishkarPatil).",
+                    text="**Sᴏʀʀʏ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ! Cᴏɴᴛᴀᴄᴛ** [Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/SL_Jana).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -140,7 +140,7 @@ async def upload(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ! Cᴏɴᴛᴀᴄᴛ ᴍʏ** [Dᴇᴠᴇʟᴏᴘᴇʀ](https://telegram.me/AvishkarPatil).",
+                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ! Cᴏɴᴛᴀᴄᴛ ᴍʏ** [Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/SL_Jana).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -207,5 +207,5 @@ async def download(url):
         
         
 bot.start()
-print("AnonFilesBot Is Started!,  if Have Any Problems contact @AvishkarPatil")
+print("AnonFilesBot Is Started!,  if Have Any Problems contact @SL_Jana_Team")
 idle()
