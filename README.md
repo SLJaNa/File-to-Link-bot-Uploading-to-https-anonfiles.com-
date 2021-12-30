@@ -1,4 +1,4 @@
-<h1 align='center'>✯ AnonFilesBot ✯</h1>
+<h1 align='center'>✯ SL_Jana_Telegram-Files-to-anonfiles.com-Link_Uploader_Bot ✯</h1>
 
 <h4 align='center'> Telegram Files to AnonFiles Upload Bot It will Also Give Direct Download Link </h4>
 
