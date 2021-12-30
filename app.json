@@ -1,15 +1,15 @@
 {
-    "name": "AnonFilesBot [ Avishkar Patil ]",
-    "description": "A telegram bot that can upload telegram media files to anonfiles.com maintained by AvoshkarPatil",
+    "name": "SL_Jana_File-to-Link-bot [ SLJaNa ]",
+    "description": "A telegram bot that can upload telegram media files to anonfiles.com maintained by SLJaNa",
     "logo": "https://i.ibb.co/zZVrKKL/thumb.jpg",
     "keywords": [
         "Anonfiles",
         "Uploader",
         "Telegram Bot"
     ],
-    "website": "https://avipatilweb.me",
-    "repository": "https://github.com/avipatilpro/AnonFliesBot",
-    "success_url": "https://telegram.me/AvishkarPatil",
+    "website": "https://github.com/SLJaNa",
+    "repository": "https://github.com/SLJaNa/File-to-Link-bot-Uploading-to-https-anonfiles.com-",
+    "success_url": "https://t.me/SL_Jana",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
