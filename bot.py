@@ -169,7 +169,7 @@ async def upload(client, message):
 
 **📥Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ:** `{text['data']['file']['url']['full']}`
 
-🔅__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @AvishkarPatil**"""
+🔅__MᴀɪɴTᴀɪɴᴇᴅ Bʏ__ :** @SL_Jana_Team**"""
         btn = InlineKeyboardMarkup(
                                 [[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ Fɪʟᴇ", url=f"{text['data']['file']['url']['full']}")]])
         await m.edit(output, reply_markup=btn)
@@ -182,7 +182,7 @@ async def upload(client, message):
 async def url(client, message):
     msg = await message.reply("__Cʜᴇᴄᴋɪɴɢ Uʀʟ...__")
     lenk = message.text
-    cap = "© @AvishkarPatil"
+    cap = "© @SL_Jana_Team"
     thumb = "./thumb.jpg"
     try:
          await msg.edit("**Bɪɢ Fɪʟᴇs Wɪʟʟ Tᴀᴋᴇ Mᴏʀᴇ Tɪᴍᴇ, Dᴏɴ'ᴛ Pᴀɴɪᴄ!**")
